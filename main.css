@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Montserrat_Light";
+    src: url(fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+.reveal {
+    font-family: "Montserrat_Light";
+    background: rgba(0, 0, 0, .4);
+}
+
+.reveal p {
+    font-size: 35px;
+}
