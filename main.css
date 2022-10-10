@@ -1,13 +1,26 @@
 @font-face {
-    font-family: "Montserrat_Light";
-    src: url(fonts/Montserrat/Montserrat-Light.ttf);
+  font-family: "Montserrat_Light";
+  src: url(fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+* {
+  transition: 0.3s all ease;
 }
 
 .reveal {
-    font-family: "Montserrat_Light";
-    background: rgba(0, 0, 0, .4);
+  font-family: "Montserrat_Light";
+  background: rgba(0, 0, 0, 0.4);
 }
 
-.reveal p {
-    font-size: 35px;
+.reveal p, .reveal li {
+  font-size: 30px;
+}
+
+.reveal:nth-child(2) p {
+  text-align: justify;
+}
+
+.slide-background {
+  transition: 0.3s transition ease;
+  opacity: 0.6 !important;
 }
