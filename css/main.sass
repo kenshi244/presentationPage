@@ -1,0 +1,53 @@
+@font-face
+    font-family: "Montserrat_Light"
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf)
+
+*
+    transition: 0.3s all ease
+
+.reveal
+    font-family: "Montserrat_Light"
+    background: rgba(0, 0, 0, 0.4)
+
+    p, li
+        margin: 0
+        padding: 0
+        font-size: 30px
+        @media screen and ( max-width: 600px )
+            font-size: 50px
+
+    &:nth-child(2)
+        p
+            text-align: justify
+
+    h3
+        margin: 20px 0
+
+    a
+        margin: 10px 0 0 0 !important
+        font-size: 16px !important
+        text-decoration: underline !important
+
+.stack
+    display: flex !important
+    flex-direction: column !important
+    justify-content: center !important
+    section
+        margin-top: 20px
+
+.slide-background
+    transition: 0.3s transition ease !important
+    opacity: .3 !important
+
+.p-div
+    &.fourth
+        p
+            @media screen and ( max-width: 600px )
+                font-size: 46px
+                text-align: center
+
+.margin-ul
+    li
+        font-weight: bold
+    p
+        margin: 10px 0 30px 25px
