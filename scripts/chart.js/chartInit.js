@@ -38,7 +38,22 @@ const firstChart = new Chart(firstCanvas, {
     scales: {
       y: {
         beginAtZero: true,
+        ticks: {
+          font: {
+            size: 14,
+          },
+        },
       },
+      x: {
+        ticks: {
+          font: {
+            size: 18,
+          },
+        },
+      },
+    },
+    layout: {
+      padding: 10,
     },
   },
   plugins: [
@@ -93,7 +108,22 @@ const secondChart = new Chart(secondCanvas, {
     scales: {
       y: {
         beginAtZero: true,
+        ticks: {
+          font: {
+            size: 14,
+          },
+        },
       },
+      x: {
+        ticks: {
+          font: {
+            size: 18,
+          },
+        },
+      },
+    },
+    layout: {
+      padding: 10,
     },
   },
   plugins: [
